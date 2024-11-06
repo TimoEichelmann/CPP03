@@ -6,7 +6,7 @@
 		"type": "shell",
 		"command": "node",
 		"args": [
-		  "${workspaceFolder}/generateClass.js",
+		  "${workspaceFolder}/../generateClass.js",
 		  "${input:className}"
 		],
 		"problemMatcher": [],
@@ -17,7 +17,7 @@
 		"type": "shell",
 		"command": "node",
 		"args": [
-		  "${workspaceFolder}/implementClass.js",
+		  "${workspaceFolder}/../implementClass.js",
 		  "${input:className}"
 		],
 		"problemMatcher": [],

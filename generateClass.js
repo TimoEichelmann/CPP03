@@ -20,6 +20,7 @@ public:
 
     ${className}& operator=(const ${className}& other);
 
+	~${cclassName}();
 private:
 
 };

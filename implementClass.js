@@ -21,7 +21,7 @@ const classTemplate = `#include "${className}.h"
 		//Copy Constructor
 	}
 
-    ${className}::${className}& operator=(const ${className}& other)
+    ${className}& ${className}::operator=(const ${className}& other)
 	{
 		//Copy Assignment Constructor
 	}
